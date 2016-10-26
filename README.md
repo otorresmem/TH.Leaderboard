@@ -21,7 +21,7 @@ Simple AngularJS application that displays dynamic leaderboard information of re
  Other important thing is that I didn't want to include too much information. The simpler the better, mostly with too many users.
  By last, just want to say that I didn't include any additional animation to avoid overhead of time considering the fact that there are many users and the time is too valuable. 
  
- #Development
+##Development
  - I decided to use AngularJS because it is the framework being used on the development site.
  - I also included Bootstrap 3, as I feel too familiarized with.
  - Although I included Bootstrap, I made lot of customizations of CSS on the custom.css file.
