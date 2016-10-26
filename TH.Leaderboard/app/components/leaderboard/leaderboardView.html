@@ -1,0 +1,48 @@
+﻿<div class="row top-bar">
+    <div class="top-bar-header">
+        <div class="col-xs-12 top-bar-col nopadding">
+            <div class="pull-left logo">
+                <img class="logo" src="https://s3-us-west-2.amazonaws.com/trainheroic-prod/logos/logo54e232d031f4a.jpg"  />
+            </div>
+            <div class="workout-title">
+                <span>{{workoutName}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="top-bar-firstplaces">
+        <div class="col-xs-3 top-bar-col">
+            <div class="top-data">
+                <div class="col-xs-6 nopadding">
+                    <div class="pull-left date-title">
+                        <span>Date</span>
+                        <span>{{ workoutDate | date : "EEE MM.dd.yy" }}</span>
+                    </div>
+                    <div class="pull-left avg-title">
+                        <span>Avg</span>
+                        <span>{{lb.average}} (RX)</span>
+                    </div>
+                </div>
+                <div class="col-xs-6 nopadding">
+                    <div class="athletes-count">
+                        <span>{{totalReps}}</span>
+                    </div>
+                    <div class="athletes-title">
+                        <span>Athletes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-repeat="user in topUsers" class="col-xs-3 top-bar-col">
+            <heroic-top-user user-data="user" />            
+        </div>
+    </div>
+
+
+</div>
+
+
+<div ng-init="lb.init()" ng-repeat="userGroup in usersGrouped" class="row">
+    <div ng-repeat="user in userGroup" class="col-xs-3 col">
+        <heroic-user user-data="user" />
+    </div>
+</div>

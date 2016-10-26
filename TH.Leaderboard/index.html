@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Train Heroic - Leaderboard</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet" type="text/css">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="Content/custom.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid results" ui-view></div>
+
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-animate.js" type="text/javascript"></script>
+    <script src="Scripts/angular-ui-router.min.js" type="text/javascript"></script>
+    <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- Bootstrapping -->
+    <script src="app/app.module.js"></script>
+
+    <script src="app/states.js"></script>
+    <script src="app/components/core/core.module.js"></script>
+    <!--core-->
+    <script src="app/components/core/constants.js"></script>
+    <script src="app/components/core/directives.js"></script>
+    <script src="app/components/core/filters.js"></script>
+    <!--entities-->
+    <script src="app/entities/entities.module.js"></script>
+    <script src="app/entities/entityLeaderboard.js"></script>
+
+    <!--inicio (infantes)-->
+    <script src="app/components/leaderboard/leaderboard.module.js"></script>
+    <script src="app/components/leaderboard/leaderboardController.js"></script>
+</body>
+</html>

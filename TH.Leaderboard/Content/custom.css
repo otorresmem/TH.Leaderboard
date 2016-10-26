@@ -1,0 +1,232 @@
+﻿.img-circle {
+    border-radius: 50%;
+}
+.img-circle {
+    border-radius: 0;
+}
+
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.lw { font-size: 60px; }
+
+
+.col {
+  height: 20vh;
+  /*border-style: solid;*/
+  padding: 1vh !important;
+}
+
+.statics-title{
+  text-align: center;
+  margin-left: 1%;  
+}
+
+.statics-title h3{
+   margin-top: 0;
+}
+
+.athletes-title, .athletes-count{
+    text-align: center;
+  margin-left: 1%;  
+  display: block;
+}
+
+.athletes-title span{
+   margin-top: 0;
+   text-transform: uppercase;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+}
+
+.athletes-count span{
+   margin-top: 0;
+   text-transform: uppercase;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+}
+
+.date-title{
+    margin-top: 1vh;
+}
+
+.date-title, .avg-title{
+  text-align: center;
+  margin-left: 1%;  
+  display: block;
+}
+
+.date-title span, .avg-title span{
+   margin-top: 0;
+   text-transform: uppercase;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 18px;
+}
+
+.date-title span:first-of-type, .avg-title span:first-of-type{
+   font-size: 10px;
+}
+
+.top-data{
+    margin-top: 3vh;
+    margin-left: 1vh;
+}
+
+
+.logo {
+    height: 100%;
+}
+
+.results{
+  background-color: #e9e9e9 !important;/*#777;*/
+}
+
+.top-bar{
+  background-color: #000000;
+  color:  white;
+  font-family: 'Open Sans', sans-serif;
+  height: 20vh;
+}
+
+.top-bar-header{
+    height: 20%;
+    background-color: black;
+}
+
+.top-bar-col{
+    height: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.top-bar-firstplaces{
+    height: 80%;
+}
+
+.workout-title{
+  font-size: 24px;
+  float: left;
+  margin-left: 2vh;
+}
+
+.img-circle {
+    max-height: 100%;
+    border-radius: 50%;
+}
+.img-circle {
+    border-radius: 0;
+}
+
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+ 
+    padding-bottom: 100%;
+    position: relative;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.card-footer{
+  text-align: center;
+  font-size: 2.5vh;
+  height: 40%;
+}
+
+.card-body{
+  text-align: center;
+  font-size: 2vh;
+  height: 100%;
+  line-height: 1.1;
+}
+
+.card{
+  background-color: #fff;
+  height: 100%;
+  border-top: solid 3px rgb(33,150,243);
+  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.2), 0px 7px 10px 1px rgba(0, 0, 0, 0.14), 0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+}
+
+.top-card{
+  height: 100%;
+ /* background-color: #1f242a;
+  border-top: solid 3px rgb(33,150,243);
+  /*box-shadow: 2px 4px 5px -2px rgba(255, 255, 255, 0.2), 0px 7px 10px 1px rgba(241, 241, 241, 0.14), 0px 2px 16px 1px rgba(255, 255, 255, 0.12);*/
+}
+div.top-card .mask{
+  width: 13vh;
+  height: 13vh;
+}
+
+.mask {
+  margin-top: 1vh;
+  display: inline-block;
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
+}
+
+.rank{
+  text-align: center;
+  height: 60%;
+}
+
+.rank h1, .rank-position{
+  margin-top: 1vh;
+  font-weight: 700;
+  color: rgb(33,150,243);
+  font-size: 9vh;
+}
+
+.user-img {
+  max-width: 100%;
+}
+
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.maxheight{
+   height: 100%;
+
+}
+
+/*****/
+.top-header{
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    left: 0;
+    background-color: #333333;
+
+}
+
+.athlete{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
