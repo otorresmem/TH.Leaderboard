@@ -1,9 +1,9 @@
 # TH.Leaderboard
 
-##Description
+## Description
 Simple AngularJS application that displays dynamic leaderboard information of real people.
 
-##Key points
+## Key points
 1. The application is configured to display the people in groups of 16 people.
 2. The application displays the top three people on top of the screen.
 3. The time needed to cycle between the groups of N people is set to 4 seconds.
@@ -11,7 +11,7 @@ Simple AngularJS application that displays dynamic leaderboard information of re
 5. The total amount of people that may appear on the leaderboard is about 300.
 6. The place where the people may be watching this leaderboard is a gym.
 
-##Decisions that I took
+## Decisions that I took
  To reach out to this point I had to consider the size of the monitor, the users that may be interested on watch the leaderboard statics, the place where the monitor may be located, the existing site conventions (colors for example).
  
  The first thing that I thought was that the first thing a user will look on the screen is his picture. So, I gave high importance to the size of the picture and made it rounded trying to follow the existing conventions on the development site.
@@ -21,7 +21,7 @@ Simple AngularJS application that displays dynamic leaderboard information of re
  Other important thing is that I didn't want to include too much information. The simpler the better, mostly with too many users.
  By last, just want to say that I didn't include any additional animation to avoid overhead of time considering the fact that there are many users and the time is too valuable. 
  
-##Development
+## Development
  - I decided to use AngularJS because it is the framework being used on the development site.
  - I also included Bootstrap 3, as I feel too familiarized with.
  - Although I included Bootstrap, I made lot of customizations of CSS on the custom.css file.
@@ -29,5 +29,5 @@ Simple AngularJS application that displays dynamic leaderboard information of re
  - The structure of the code is one of my favorites as it is well modularized and all the components are separately from each other.
  
 
-##Link of the site
+## Link of the site
 http://thleaderboard.azurewebsites.net/
